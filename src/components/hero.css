@@ -1,0 +1,11 @@
+.pink-gradient {
+    background-image: linear-gradient(to bottom, #ff7eb6, #ff3278);
+  }
+  
+  .white-gradient {
+    background-image: radial-gradient(circle, #ffffff 0%, #ffffff 100%);
+  }
+  
+  .blue-gradient {
+    background-image: linear-gradient(to right, #4facfe, #00f2fe);
+  }

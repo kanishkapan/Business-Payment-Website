@@ -1,0 +1,24 @@
+/* Add this CSS to create the glass effect */
+.bg-glass {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bg-glass:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Optional: Additional styles for smooth transition and hover effects */
+  .transition-all {
+    transition: all 0.3s ease;
+  }
+  
+  .hover\:shadow-xl:hover {
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+  }
+  
